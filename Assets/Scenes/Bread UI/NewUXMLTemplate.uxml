@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/Bread%20UI/Bread.uss?fileID=7433441132597879392&amp;guid=f64b79319c5f25a4998c77a93344c83f&amp;type=3#Bread" />
+    <ui:VisualElement name="slide-box" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="page1" class="page" style="flex-grow: 1; background-color: rgb(121, 235, 250);" />
+        <ui:VisualElement name="page2" class="page" style="flex-grow: 1; background-color: rgb(121, 196, 250);" />
+        <ui:VisualElement name="page3" class="page" style="flex-grow: 1; background-color: rgb(121, 134, 250);" />
+        <ui:VisualElement name="page4" class="page" style="flex-grow: 1; background-color: rgb(121, 60, 250);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="out-box" style="justify-content: space-between; align-items: auto; flex-direction: row-reverse; align-self: center; height: 49px; width: -105px; flex-basis: 43px;">
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label3" class="button" style="background-image: url(&apos;project://database/Assets/Sprites/Circle-Icon-Cyan/Player-Idle.png?fileID=21300000&amp;guid=a34d9757bb224cd4abfe95e8496683d1&amp;type=3#Player-Idle&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgb(71, 208, 228);" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label2" class="button" style="background-image: url(&apos;project://database/Assets/Sprites/Circle-Icon-Cyan/TalkBubble-Idle.png?fileID=21300000&amp;guid=d09807c8786f35348a7828bdcc0e7c74&amp;type=3#TalkBubble-Idle&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgb(71, 208, 228);" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label1" class="button" style="background-image: url(&apos;project://database/Assets/Sprites/Circle-Icon-Cyan/Home-Idle.png?fileID=21300000&amp;guid=9970893410a59fb488e89054a31e7840&amp;type=3#Home-Idle&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgb(71, 208, 228);" />
+    </ui:VisualElement>
+</ui:UXML>

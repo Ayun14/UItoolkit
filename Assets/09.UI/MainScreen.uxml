@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainScreen.uss?fileID=7433441132597879392&amp;guid=e1114e6d2794ef446beb15cb125837dc&amp;type=3#MainScreen" />
+    <ui:VisualElement name="container">
+        <ui:VisualElement name="header">
+            <ui:Label tabindex="-1" text="Home" parse-escape-sequences="false" display-tooltip-when-elided="true" name="home-label" class="lbl-title" style="width: 240px; height: 60px; font-size: 50px;" />
+            <ui:Label tabindex="-1" text="Inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="inven-label" class="lbl-title" style="width: 240px; height: 60px; color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center;" />
+            <ui:Label tabindex="-1" text="Equip" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equip-label" class="lbl-title" style="width: 200px; height: 60px; color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center;" />
+            <ui:Label tabindex="-1" text="Friend" parse-escape-sequences="true" display-tooltip-when-elided="true" name="friend-label" class="lbl-title" style="width: 200px; height: 60px; -unity-text-align: middle-center; color: rgb(255, 255, 255); font-size: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content">
+            <ui:VisualElement name="slide-box" style="flex-grow: 1; transition-property: left;">
+                <ui:VisualElement name="page-one" class="page">
+                    <ui:VisualElement name="outer-box" class="outer-box" style="flex-grow: 1;">
+                        <ui:VisualElement name="inner-box" class="inner-box" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="outer-box" class="outer-box" style="flex-grow: 1;">
+                        <ui:VisualElement name="innere-box" class="inner-box" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="page-two" class="page" style="flex-grow: 1; background-color: rgb(32, 73, 255);" />
+                <ui:VisualElement name="page-three" class="page" style="flex-grow: 1; background-color: rgb(241, 230, 35);" />
+                <ui:VisualElement name="page-four" class="page" style="flex-grow: 1; background-color: rgb(255, 0, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

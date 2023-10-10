@@ -1,0 +1,36 @@
+.button {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(140, 191, 245);
+    justify-content: flex-start;
+    align-items: auto;
+    align-self: auto;
+    width: 117px;
+    height: 300px;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+}
+
+#out-box {
+    flex-basis: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#slide-box {
+    flex-direction: row;
+    width: 400%;
+    left: 0;
+    height: 100%;
+    transition-property: left;
+    transition-duration: 0.5s;
+}
+
+.page {
+    flex-direction: row;
+    width: 25%;
+}
