@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/CrdBinding.uss?fileID=7433441132597879392&amp;guid=6ff726c7ca4813a43b29e552383f23e1&amp;type=3#CrdBinding" />
+    <ui:VisualElement name="continer" style="flex-grow: 1;">
+        <ui:VisualElement name="Side-br" class="side-br">
+            <ui:Button text="Add Crd" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-dd-crd" class="btn" style="align-items: auto; justify-content: flex-start; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&amp;guid=b15335dfd07a4a442a7701cf55557551&amp;type=3#NPSfont_extrabold&apos;); font-size: 24px; white-space: nowrap;" />
+            <ui:VisualElement name="input-box" focusable="false" style="flex-direction: column; overflow: hidden; width: 80%; margin-top: 50px;">
+                <ui:TextField picking-mode="Ignore" value="Name" password="false" name="txt-nme" class="input-control" style="-unity-font: url(&apos;project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&amp;guid=b15335dfd07a4a442a7701cf55557551&amp;type=3#NPSfont_extrabold&apos;); -unity-font-style: normal; font-size: 20px;" />
+                <ui:TextField picking-mode="Ignore" value="Descr" password="false" name="txt-desc" class="input-control" style="-unity-font: url(&apos;project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&amp;guid=b15335dfd07a4a442a7701cf55557551&amp;type=3#NPSfont_extrabold&apos;); -unity-font-style: normal; font-size: 20px;" />
+            </ui:VisualElement>
+            <ui:Button text="Show ll" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-show-ll" class="btn" style="align-items: auto; justify-content: flex-start; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&amp;guid=b15335dfd07a4a442a7701cf55557551&amp;type=3#NPSfont_extrabold&apos;); font-size: 24px; white-space: nowrap; flex-direction: column; align-self: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" class="content" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

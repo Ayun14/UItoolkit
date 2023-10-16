@@ -1,0 +1,16 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.input-field {
+}
+
+.multiline {
+    min-height: 120px;
+}
+
+.btn {
+    background-color: rgb(105, 116, 144);
+}

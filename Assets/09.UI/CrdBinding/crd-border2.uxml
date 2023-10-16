@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="crd-border" class="crd-border">
+        <ui:VisualElement name="crd-content" class="crd-content">
+            <ui:VisualElement name="img-continer">
+                <ui:VisualElement name="imge" class="imge" style="background-image: url(&apos;project://database/Assets/Textures/img_lara.png?fileID=21300000&amp;guid=a62331fbd901efc40b07747e52a5c956&amp;type=3#img_lara&apos;); background-color: rgba(255, 255, 255, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="nme-box" style="flex-basis: 60px;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="nme-lbel" class="nme-lbel" />
+            </ui:VisualElement>
+            <ui:VisualElement name="info-box" style="flex-basis: 80px; background-color: rgb(254, 242, 178); justify-content: center; align-items: center;">
+                <ui:Label tabindex="-1" text="Some informting is here" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-lbel" style="-unity-font: url(&apos;project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&amp;guid=b15335dfd07a4a442a7701cf55557551&amp;type=3#NPSfont_extrabold&apos;); -unity-font-definition: initial; -unity-text-align: upper-center; font-size: 18px; white-space: normal; flex-basis: auto; width: 170px; align-items: stretch;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

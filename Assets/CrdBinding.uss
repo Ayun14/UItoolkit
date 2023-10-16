@@ -1,0 +1,121 @@
+#continer {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.side-br {
+    flex-basis: 450px;
+    flex-shrink: 0;
+    background-color: rgb(254, 242, 178);
+    align-items: center;
+}
+
+.content {
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(16, 28, 44);
+    flex-wrap: wrap;
+}
+
+.crd-content {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(241, 42, 42);
+}
+
+.crd-content > #img-continer {
+    flex-basis: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge {
+    width: 128px;
+    height: 128px;
+    background-image: url('project://database/Assets/Sprites/Circle-Icon-Cyan/Tick-Hover.png?fileID=21300000&guid=dc55b5897745f7e4994245e8eee287f7&type=3#Tick-Hover');
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.nme-lbel {
+    font-size: 30px;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    -unity-font: url('project://database/Assets/07.Font/NPSfont_extrabold.ttf?fileID=12800000&guid=b15335dfd07a4a442a7701cf55557551&type=3#NPSfont_extrabold');
+    -unity-font-definition: initial;
+    white-space: normal;
+}
+
+.crd-border {
+    border-left-color: rgba(254, 242, 178, 0);
+    border-right-color: rgba(254, 242, 178, 0);
+    border-top-color: rgba(254, 242, 178, 0);
+    border-bottom-color: rgba(254, 242, 178, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    transition-duration: 0.3s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    translate: 0 -400px;
+    opacity: 0;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.crd-border:hover {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(254, 242, 178);
+    border-right-color: rgb(254, 242, 178);
+    border-top-color: rgb(254, 242, 178);
+    border-bottom-color: rgb(254, 242, 178);
+}
+
+.btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    width: 191px;
+    align-items: center;
+}
+
+.input-control {
+}
+
+.input-control > #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-bottom: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+}
+
+.crd-border.on {
+    translate: 0 0;
+    opacity: 1;
+}

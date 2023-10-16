@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/CreteChr.uss?fileID=7433441132597879392&amp;guid=c0fef5efa3220e74c8d2f9ccd9743ec6&amp;type=3#CreteChr" />
+    <ui:VisualElement name="continer" style="flex-grow: 1;">
+        <ui:VisualElement name="input-box" style="flex-grow: 1;">
+            <ui:TextField picking-mode="Ignore" label="캐릭터 이르" value="filler text" name="txt-nme" class="input-field" style="font-size: 20px; -unity-font-style: normal;" />
+            <ui:TextField picking-mode="Ignore" label="캐릭터 서령" value="filler text" name="txt-desc" multiline="true" class="input-field multiline" style="font-size: 20px; -unity-font-style: normal;" />
+            <uie:ObjectField label="Sprite" name="object-sprite" type="UnityEngine.Sprite, UnityEngine.CoreModule" class="input-field" style="font-size: 20px; -unity-font-style: normal;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="button-row" style="flex-grow: 1;">
+            <ui:Button text="ㅏㄴ들" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-crete" class="btn" style="-unity-font-style: bold; font-size: 20px; max-width: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
