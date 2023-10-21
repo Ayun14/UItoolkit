@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chrcter
+public class Character
 {
     public event Action OnChanged;
 
@@ -50,7 +50,7 @@ public class Chrcter
         }
     }
 
-    public Chrcter(string name, string description, Sprite sprite)
+    public Character(string name, string description, Sprite sprite)
     {
         _name = name;
         _description = description;

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "SO/Chrcter")]
-public class ChrcterSO : ScriptableObject
+public class CharacterSO : ScriptableObject
 {
-    public string chrnme;
+    public string charname;
     public string description;
     public Sprite sprite;
 }

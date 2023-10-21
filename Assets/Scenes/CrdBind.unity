@@ -184,13 +184,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91982d73525925c4d83097d6ac88ac34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chrList:
+  _charList:
   - {fileID: 11400000, guid: 8c4c51584e2cfeb44a8b32991fd3445b, type: 2}
   - {fileID: 11400000, guid: a2f2ac030d7d50949a68e1241fd60c74, type: 2}
   - {fileID: 11400000, guid: 066c98c76381afa4bb0a8b999a101f20, type: 2}
   - {fileID: 11400000, guid: 901b0e3ca238986488ac8ccc8e541239, type: 2}
-  _deflteSprite: {fileID: 0}
-  _crdTemplte: {fileID: 9197481963319205126, guid: 151b3516de41319438e3ea332e6a74ca, type: 3}
+  _defalteSprite: {fileID: 21300000, guid: a62331fbd901efc40b07747e52a5c956, type: 3}
+  _cardTemplte: {fileID: 9197481963319205126, guid: 151b3516de41319438e3ea332e6a74ca, type: 3}
 --- !u!1 &1362503921
 GameObject:
   m_ObjectHideFlags: 0

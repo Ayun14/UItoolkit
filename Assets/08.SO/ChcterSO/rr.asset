@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df7baa91ce445640a65d681029dd6a6, type: 3}
   m_Name: rr
   m_EditorClassIdentifier: 
-  chrnme: rr
-  description: "\uC6B0\uC640"
-  sprite: {fileID: 21300000, guid: 3a2078d58c141cd498e7a0af160fb034, type: 3}
+  charname: "4\uBC88"
+  description: "\uD588\uB2E4"
+  sprite: {fileID: 21300000, guid: 53ddab6a9f18eac40934bd77e0dc6847, type: 3}
