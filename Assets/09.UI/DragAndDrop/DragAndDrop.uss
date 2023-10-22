@@ -1,0 +1,10 @@
+.container {
+    flex-grow: 1;
+}
+
+.name-label {
+    position: absolute;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}

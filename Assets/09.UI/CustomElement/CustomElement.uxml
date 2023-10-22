@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/09.UI/CustomElement/CustomElement.uss?fileID=7433441132597879392&amp;guid=010f5922d6cb15b4fad09e5a281149eb&amp;type=3#CustomElement" />
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="button-row" class="button-row">
+            <DataVisualElement button-name="1번버튼" button-index="1" focusable="false" name="button" um="0.5" class="button" />
+            <DataVisualElement button-name="2번버튼" button-index="2" focusable="false" name="button" um="0.5" class="button" />
+            <DataVisualElement button-name="3번버튼" button-index="3" focusable="false" name="button" um="0.5" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
